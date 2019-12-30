@@ -155,6 +155,9 @@ figure {
   .gift-greet {
     padding: 0px 85px 0px 60px;
     font-size: 2rem;
+    position: absolute;
+    top: 54%;
+    left: 4%;
   }
   .hide {
     display: none;
@@ -178,7 +181,7 @@ figure {
   .gift-box {
     position: fixed;
     bottom: 1px;
-    left: 24%;
+    left: 28%;
     height: 150px;
     width: 150px;
   }
