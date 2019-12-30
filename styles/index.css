@@ -1,5 +1,6 @@
 body {
   margin: 0 !important;
+  overflow: hidden !important;
 }
 
 h1 {
@@ -52,7 +53,7 @@ figure {
   margin-block-end: 0.67em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  font-size: 50px;
+  font-size: 2.5rem;
 }
 .goodbye {
   animation: tilt 5s ease-in-out infinite;
@@ -105,6 +106,27 @@ figure {
 .container {
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 55%;
+  top: 50%;
   left: 50%;
+}
+
+@media (max-width: 425px) and (min-width: 320px) {
+  .img1 {
+    padding: 0;
+    height: 220px;
+    width: 220px;
+  }
+  .name{
+    font-size: 2rem;
+  }
+  #demo{
+    font-size: 1.3rem;
+  }
+  .goodbye{
+    font-size: 2rem;
+    padding: 0;
+  }
+  .h1{
+    padding: 0;
+  }
 }
