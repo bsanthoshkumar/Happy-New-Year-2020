@@ -1,3 +1,7 @@
+body {
+  margin: 0 !important;
+}
+
 h1 {
   padding: 0px 50px 100px 50px;
   text-align: center;
@@ -8,14 +12,14 @@ h1 {
 p {
   align-self: center;
   font-size: 40px;
-  padding: 0px 0px 0px 450px;
+  text-align: center;
   color: darkorange;
   text-shadow: 2px 2px yellow;
 }
 .img1 {
   align-self: center;
-  padding: 0px 0px 0px 450px;
-  width: 500px;
+  padding: 0px 0px 0px 180px;
+  width: 350px;
   height: 350px;
 }
 figure {
@@ -24,7 +28,6 @@ figure {
   transform-style: preserve-3d;
   font-size: 15px;
   margin: -5em 0;
-  margin-bottom: 59px;
 }
 @keyframes wobble {
   0%,
@@ -53,14 +56,14 @@ figure {
 }
 .goodbye {
   animation: tilt 5s ease-in-out infinite;
-  padding: 0px 50px 50px 100px;
+  padding: 0px 150px 50px 100px;
   color: greenyellow;
   text-shadow: 2px 2px 0px yellow;
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  font-size: 50px;
+  font-size: 2.5rem;
 }
 @keyframes tilt {
   0%,
@@ -92,4 +95,16 @@ figure {
   height: 100%;
   top: 1%;
   color: #000;
+}
+
+.bgGif {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 55%;
+  left: 50%;
 }
