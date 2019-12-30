@@ -180,7 +180,7 @@ figure {
   }
   .gift-box {
     position: fixed;
-    bottom: 1px;
+    bottom: 20px;
     left: 28%;
     height: 150px;
     width: 150px;
