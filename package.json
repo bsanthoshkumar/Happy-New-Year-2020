@@ -4,7 +4,8 @@
   "description": "",
   "main": "countDownDate.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo 'All is fine",
+    "start": "open start.html"
   },
   "repository": {
     "type": "git",
