@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/bsanthoshkumar/Happy-New-Year-2020/issues"
   },
-  "homepage": "https://github.com/bsanthoshkumar/Happy-New-Year-2020#readme"
+  "homepage": "https://github.com/bsanthoshkumar/Happy-New-Year-2020#readme",
+  "devDependencies": {
+    "serve": "^11.2.0"
+  }
 }
