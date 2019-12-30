@@ -5,7 +5,7 @@
   "main": "countDownDate.js",
   "scripts": {
     "test": "echo 'All is fine",
-    "start": "./start.html"
+    "start": "node countDownDate.js"
   },
   "repository": {
     "type": "git",
