@@ -42,7 +42,7 @@ figure {
   }
 }
 .name {
-  padding: 40px 50px 50px 550px;
+  padding: 40px 50px 50px 50px;
   color: greenyellow;
   text-shadow: 2px 2px 0px gold;
   margin-block-start: 0.67em;
