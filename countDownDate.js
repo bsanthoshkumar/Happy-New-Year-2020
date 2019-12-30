@@ -14,7 +14,6 @@ const printTime = () => {
     if (distance <= 0) {
       document.getElementById('demo').innerHTML = 'HAPPY NEW YEAR 2020';
       clearInterval(interval);
-      process.exit();
     }
   }, 1);
 };
